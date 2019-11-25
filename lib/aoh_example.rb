@@ -9,14 +9,15 @@ BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 def assembled_aoh
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
-    hash_1 = {:KEY => "VALUE"},
-    hash_2 = {:KEYS =>  "VALUES"},
-    hash_3 = {:KEYS2 => "VALUES2"}
+    BRUCE_G = {name: "Bruce Green", occupation: "Fan of Mildred" }
+    },
+    KATE_G = {name: "Kate Gompert", occupation: "None"},
+    PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
     
     assembled_aoh = [
-      hash_1,
-      hash_2,
-      hash_3,
+      BRUCE_G,
+      KATE_G,
+      PAT_M,
       ]
 end
 
