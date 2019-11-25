@@ -12,7 +12,6 @@ def assembled_aoh
     hash_1 = {:KEY => "VALUE"},
     hash_2 = {:KEYS =>  "VALUES"},
     hash_3 = {:KEYS2 => "VALUES2"}
-    ]
     
     assembled_aoh = [
       hash_1,
